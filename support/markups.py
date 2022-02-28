@@ -2,15 +2,14 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 start = [
         [
-            InlineKeyboardButton('Support', url='t.me/rmprojects'),
-            InlineKeyboardButton('Source', url='github.com/m4mallu')
+            InlineKeyboardButton('Support', url='t.me/BotsArabic'),
         ]
         ]
 
 close = [
         [
-            InlineKeyboardButton('Support', url='t.me/rmprojects'),
-            InlineKeyboardButton('Close', callback_data='close_btn')
+            InlineKeyboardButton('Support', url='t.me/BotsArabic')
+            # InlineKeyboardButton('Close', callback_data='close_btn')
         ]
         ]
 
