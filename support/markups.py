@@ -13,5 +13,5 @@ close = [
         ]
         ]
 
-start_buttons = InlineKeyboardMarkup(start)
+start_button = InlineKeyboardMarkup(start)
 close_button = InlineKeyboardMarkup(close)
