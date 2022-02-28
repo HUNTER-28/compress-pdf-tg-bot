@@ -57,8 +57,6 @@ async def compress_pdf(c, m: Message):
         reply_to_message_id=m.message_id,
         caption=m.caption if m.caption else ''
         )
-
-    )
     #
     try:
         os.remove(size_path[1])
