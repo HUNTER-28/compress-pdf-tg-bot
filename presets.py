@@ -10,6 +10,5 @@ class Presets(object):
     UN_FINISHED_BAR = "◻️"
     FINISHED_DL = "<b>Success !</b>\n<i>Document downloaded successfully.</i>"
     START_COMPRESSING = "⌛️ <b>Processing</b>  ⌛\n<i>Trying to compress the document.</i>"
-    FINISHED_JOB = "<b>Success</b> ✅ \n\n<i>Size before job: {}\nSize after job: {}\n\nCredits: </i><a " \
-                   "href='https://github.com/m4mallu'><b> @M4Mallu</b></a> "
+    FINISHED_JOB = "✅ <b>Document compression completed</b>"
     JOB_ERROR = "<b>Error:</b>\n<i>Something went wrong ! Process exited</i>"
